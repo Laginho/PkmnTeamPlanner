@@ -1,0 +1,94 @@
+[
+    {
+        "location_area": {
+            "name": "unova-route-18-area",
+            "url": "/api/v2/location-area/653/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 1,
+                        "method": {
+                            "name": "gift-egg",
+                            "url": "/api/v2/encounter-method/19/"
+                        },
+                        "min_level": 1
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "black",
+                    "url": "/api/v2/version/17/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 1,
+                        "method": {
+                            "name": "gift-egg",
+                            "url": "/api/v2/encounter-method/19/"
+                        },
+                        "min_level": 1
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "white",
+                    "url": "/api/v2/version/18/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "lush-jungle-east-cave",
+            "url": "/api/v2/location-area/1094/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 44,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 41
+                    }
+                ],
+                "max_chance": 1,
+                "version": {
+                    "name": "ultra-sun",
+                    "url": "/api/v2/version/29/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 44,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 41
+                    }
+                ],
+                "max_chance": 1,
+                "version": {
+                    "name": "ultra-moon",
+                    "url": "/api/v2/version/30/"
+                }
+            }
+        ]
+    }
+]

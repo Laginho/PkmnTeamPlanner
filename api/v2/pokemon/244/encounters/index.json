@@ -1,0 +1,221 @@
+[
+    {
+        "location_area": {
+            "name": "roaming-kanto-area",
+            "url": "/api/v2/location-area/794/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 25,
+                        "condition_values": [
+                            {
+                                "name": "story-progress-beat-elite-four-round-two",
+                                "url": "/api/v2/encounter-condition-value/34/"
+                            },
+                            {
+                                "name": "starter-bulbasaur",
+                                "url": "/api/v2/encounter-condition-value/21/"
+                            }
+                        ],
+                        "max_level": 50,
+                        "method": {
+                            "name": "roaming-grass",
+                            "url": "/api/v2/encounter-method/28/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 25,
+                "version": {
+                    "name": "firered",
+                    "url": "/api/v2/version/10/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 25,
+                        "condition_values": [
+                            {
+                                "name": "story-progress-beat-elite-four-round-two",
+                                "url": "/api/v2/encounter-condition-value/34/"
+                            },
+                            {
+                                "name": "starter-bulbasaur",
+                                "url": "/api/v2/encounter-condition-value/21/"
+                            }
+                        ],
+                        "max_level": 50,
+                        "method": {
+                            "name": "roaming-grass",
+                            "url": "/api/v2/encounter-method/28/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 25,
+                "version": {
+                    "name": "leafgreen",
+                    "url": "/api/v2/version/11/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "roaming-johto-area",
+            "url": "/api/v2/location-area/795/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "story-progress-awakened-beasts",
+                                "url": "/api/v2/encounter-condition-value/29/"
+                            }
+                        ],
+                        "max_level": 40,
+                        "method": {
+                            "name": "roaming-grass",
+                            "url": "/api/v2/encounter-method/28/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "gold",
+                    "url": "/api/v2/version/4/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "story-progress-awakened-beasts",
+                                "url": "/api/v2/encounter-condition-value/29/"
+                            }
+                        ],
+                        "max_level": 40,
+                        "method": {
+                            "name": "roaming-grass",
+                            "url": "/api/v2/encounter-method/28/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "silver",
+                    "url": "/api/v2/version/5/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "story-progress-awakened-beasts",
+                                "url": "/api/v2/encounter-condition-value/29/"
+                            }
+                        ],
+                        "max_level": 40,
+                        "method": {
+                            "name": "roaming-grass",
+                            "url": "/api/v2/encounter-method/28/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "crystal",
+                    "url": "/api/v2/version/6/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 25,
+                        "condition_values": [
+                            {
+                                "name": "story-progress-awakened-beasts",
+                                "url": "/api/v2/encounter-condition-value/29/"
+                            }
+                        ],
+                        "max_level": 40,
+                        "method": {
+                            "name": "roaming-grass",
+                            "url": "/api/v2/encounter-method/28/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 25,
+                "version": {
+                    "name": "heartgold",
+                    "url": "/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 25,
+                        "condition_values": [
+                            {
+                                "name": "story-progress-awakened-beasts",
+                                "url": "/api/v2/encounter-condition-value/29/"
+                            }
+                        ],
+                        "max_level": 40,
+                        "method": {
+                            "name": "roaming-grass",
+                            "url": "/api/v2/encounter-method/28/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 25,
+                "version": {
+                    "name": "soulsilver",
+                    "url": "/api/v2/version/16/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "ultra-space-wilds-crag",
+            "url": "/api/v2/location-area/1149/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 60
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "ultra-moon",
+                    "url": "/api/v2/version/30/"
+                }
+            }
+        ]
+    }
+]

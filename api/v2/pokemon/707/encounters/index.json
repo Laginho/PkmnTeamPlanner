@@ -1,0 +1,556 @@
+[
+    {
+        "location_area": {
+            "name": "kalos-route-15-area",
+            "url": "/api/v2/location-area/726/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 34,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 34
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 36,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 36
+                    },
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 34,
+                        "method": {
+                            "name": "red-flowers",
+                            "url": "/api/v2/encounter-method/16/"
+                        },
+                        "min_level": 34
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "red-flowers",
+                            "url": "/api/v2/encounter-method/16/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 36,
+                        "method": {
+                            "name": "red-flowers",
+                            "url": "/api/v2/encounter-method/16/"
+                        },
+                        "min_level": 36
+                    }
+                ],
+                "max_chance": 20,
+                "version": {
+                    "name": "x",
+                    "url": "/api/v2/version/23/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 34,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 34
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 36,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 36
+                    },
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 34,
+                        "method": {
+                            "name": "red-flowers",
+                            "url": "/api/v2/encounter-method/16/"
+                        },
+                        "min_level": 34
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "red-flowers",
+                            "url": "/api/v2/encounter-method/16/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 36,
+                        "method": {
+                            "name": "red-flowers",
+                            "url": "/api/v2/encounter-method/16/"
+                        },
+                        "min_level": 36
+                    }
+                ],
+                "max_chance": 20,
+                "version": {
+                    "name": "y",
+                    "url": "/api/v2/version/24/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "kalos-route-16-area",
+            "url": "/api/v2/location-area/727/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 34,
+                        "method": {
+                            "name": "yellow-flowers",
+                            "url": "/api/v2/encounter-method/14/"
+                        },
+                        "min_level": 34
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "yellow-flowers",
+                            "url": "/api/v2/encounter-method/14/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 36,
+                        "method": {
+                            "name": "yellow-flowers",
+                            "url": "/api/v2/encounter-method/14/"
+                        },
+                        "min_level": 36
+                    },
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 34,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 34
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 19,
+                "version": {
+                    "name": "x",
+                    "url": "/api/v2/version/23/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 34,
+                        "method": {
+                            "name": "yellow-flowers",
+                            "url": "/api/v2/encounter-method/14/"
+                        },
+                        "min_level": 34
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "yellow-flowers",
+                            "url": "/api/v2/encounter-method/14/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 36,
+                        "method": {
+                            "name": "yellow-flowers",
+                            "url": "/api/v2/encounter-method/14/"
+                        },
+                        "min_level": 36
+                    },
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 34,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 34
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 35,
+                        "method": {
+                            "name": "rough-terrain",
+                            "url": "/api/v2/encounter-method/17/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 19,
+                "version": {
+                    "name": "y",
+                    "url": "/api/v2/version/24/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "lost-hotel-area",
+            "url": "/api/v2/location-area/759/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 36,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 36
+                    },
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 37,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 37
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 38,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 38
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 38,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 38
+                    }
+                ],
+                "max_chance": 20,
+                "version": {
+                    "name": "x",
+                    "url": "/api/v2/version/23/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 36,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 36
+                    },
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 37,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 37
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 38,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 38
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 38,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 38
+                    }
+                ],
+                "max_chance": 20,
+                "version": {
+                    "name": "y",
+                    "url": "/api/v2/version/24/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "thrifty-megamart-abandoned-site",
+            "url": "/api/v2/location-area/1137/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 15,
+                        "condition_values": [],
+                        "max_level": 32,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 29
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "sun",
+                    "url": "/api/v2/version/27/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 15,
+                        "condition_values": [],
+                        "max_level": 32,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 29
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "moon",
+                    "url": "/api/v2/version/28/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 15,
+                        "condition_values": [],
+                        "max_level": 34,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 31
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "ultra-sun",
+                    "url": "/api/v2/version/29/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 15,
+                        "condition_values": [],
+                        "max_level": 34,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 31
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "ultra-moon",
+                    "url": "/api/v2/version/30/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "poke-pelago-poni-island-reached",
+            "url": "/api/v2/location-area/1158/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 8,
+                        "condition_values": [],
+                        "max_level": 43,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 37
+                    }
+                ],
+                "max_chance": 8,
+                "version": {
+                    "name": "sun",
+                    "url": "/api/v2/version/27/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 8,
+                        "condition_values": [],
+                        "max_level": 43,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 37
+                    }
+                ],
+                "max_chance": 8,
+                "version": {
+                    "name": "moon",
+                    "url": "/api/v2/version/28/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "poke-pelago-elite-four-defeated",
+            "url": "/api/v2/location-area/1160/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 49
+                    }
+                ],
+                "max_chance": 4,
+                "version": {
+                    "name": "sun",
+                    "url": "/api/v2/version/27/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 49
+                    }
+                ],
+                "max_chance": 4,
+                "version": {
+                    "name": "moon",
+                    "url": "/api/v2/version/28/"
+                }
+            }
+        ]
+    }
+]

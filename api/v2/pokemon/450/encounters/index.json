@@ -1,0 +1,213 @@
+[
+    {
+        "location_area": {
+            "name": "sinnoh-route-228-area",
+            "url": "/api/v2/location-area/175/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "time-morning",
+                                "url": "/api/v2/encounter-condition-value/3/"
+                            }
+                        ],
+                        "max_level": 52,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 52
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "time-day",
+                                "url": "/api/v2/encounter-condition-value/4/"
+                            }
+                        ],
+                        "max_level": 52,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 52
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "radar-off",
+                                "url": "/api/v2/encounter-condition-value/7/"
+                            }
+                        ],
+                        "max_level": 54,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 54
+                    }
+                ],
+                "max_chance": 30,
+                "version": {
+                    "name": "diamond",
+                    "url": "/api/v2/version/12/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "time-morning",
+                                "url": "/api/v2/encounter-condition-value/3/"
+                            }
+                        ],
+                        "max_level": 52,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 52
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "time-day",
+                                "url": "/api/v2/encounter-condition-value/4/"
+                            }
+                        ],
+                        "max_level": 52,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 52
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "radar-off",
+                                "url": "/api/v2/encounter-condition-value/7/"
+                            }
+                        ],
+                        "max_level": 54,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 54
+                    }
+                ],
+                "max_chance": 30,
+                "version": {
+                    "name": "pearl",
+                    "url": "/api/v2/version/13/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "time-morning",
+                                "url": "/api/v2/encounter-condition-value/3/"
+                            }
+                        ],
+                        "max_level": 50,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 50
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [
+                            {
+                                "name": "time-day",
+                                "url": "/api/v2/encounter-condition-value/4/"
+                            }
+                        ],
+                        "max_level": 50,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 50
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 51,
+                        "method": {
+                            "name": "walk",
+                            "url": "/api/v2/encounter-method/1/"
+                        },
+                        "min_level": 51
+                    }
+                ],
+                "max_chance": 30,
+                "version": {
+                    "name": "platinum",
+                    "url": "/api/v2/version/14/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "ultra-space-wilds-cave",
+            "url": "/api/v2/location-area/1147/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 15,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 60
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "ultra-sun",
+                    "url": "/api/v2/version/29/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 15,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 60
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "ultra-moon",
+                    "url": "/api/v2/version/30/"
+                }
+            }
+        ]
+    }
+]

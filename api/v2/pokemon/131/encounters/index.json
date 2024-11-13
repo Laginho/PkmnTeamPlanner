@@ -1,0 +1,978 @@
+[
+    {
+        "location_area": {
+            "name": "sinnoh-victory-road-inside-b1f",
+            "url": "/api/v2/location-area/51/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 40
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 45
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "diamond",
+                    "url": "/api/v2/version/12/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 40
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 45
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "pearl",
+                    "url": "/api/v2/version/13/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 10,
+                "version": {
+                    "name": "platinum",
+                    "url": "/api/v2/version/14/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "union-cave-b2f",
+            "url": "/api/v2/location-area/200/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [
+                            {
+                                "name": "weekday-friday",
+                                "url": "/api/v2/encounter-condition-value/64/"
+                            }
+                        ],
+                        "max_level": 20,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 20
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "gold",
+                    "url": "/api/v2/version/4/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [
+                            {
+                                "name": "weekday-friday",
+                                "url": "/api/v2/encounter-condition-value/64/"
+                            }
+                        ],
+                        "max_level": 20,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 20
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "silver",
+                    "url": "/api/v2/version/5/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [
+                            {
+                                "name": "weekday-friday",
+                                "url": "/api/v2/encounter-condition-value/64/"
+                            }
+                        ],
+                        "max_level": 20,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 20
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "crystal",
+                    "url": "/api/v2/version/6/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [
+                            {
+                                "name": "weekday-friday",
+                                "url": "/api/v2/encounter-condition-value/64/"
+                            }
+                        ],
+                        "max_level": 20,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 20
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "platinum",
+                    "url": "/api/v2/version/14/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [
+                            {
+                                "name": "weekday-friday",
+                                "url": "/api/v2/encounter-condition-value/64/"
+                            },
+                            {
+                                "name": "other-event-arceus-in-party",
+                                "url": "/api/v2/encounter-condition-value/71/"
+                            }
+                        ],
+                        "max_level": 20,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 20
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "heartgold",
+                    "url": "/api/v2/version/15/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "icefall-cave-waterfall",
+            "url": "/api/v2/location-area/499/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 45,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 30
+                    }
+                ],
+                "max_chance": 1,
+                "version": {
+                    "name": "firered",
+                    "url": "/api/v2/version/10/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 45,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 30
+                    }
+                ],
+                "max_chance": 1,
+                "version": {
+                    "name": "leafgreen",
+                    "url": "/api/v2/version/11/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "village-bridge-area",
+            "url": "/api/v2/location-area/621/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black",
+                    "url": "/api/v2/version/17/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 35
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 35
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white",
+                    "url": "/api/v2/version/18/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 30
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 30
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 30
+                    },
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 40,
+                        "method": {
+                            "name": "surf-spots",
+                            "url": "/api/v2/encounter-method/13/"
+                        },
+                        "min_level": 30
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white-2",
+                    "url": "/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "kalos-route-12-area",
+            "url": "/api/v2/location-area/723/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 27,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 27
+                    },
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 30,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 30
+                    }
+                ],
+                "max_chance": 101,
+                "version": {
+                    "name": "x",
+                    "url": "/api/v2/version/23/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 27,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 27
+                    },
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 30,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 30
+                    }
+                ],
+                "max_chance": 101,
+                "version": {
+                    "name": "y",
+                    "url": "/api/v2/version/24/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "azure-bay-area",
+            "url": "/api/v2/location-area/760/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 27,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 27
+                    }
+                ],
+                "max_chance": 1,
+                "version": {
+                    "name": "x",
+                    "url": "/api/v2/version/23/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 1,
+                        "condition_values": [],
+                        "max_level": 27,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 27
+                    }
+                ],
+                "max_chance": 1,
+                "version": {
+                    "name": "y",
+                    "url": "/api/v2/version/24/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "saffron-city-silph-co-7f",
+            "url": "/api/v2/location-area/764/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 15
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "red",
+                    "url": "/api/v2/version/1/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 15
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "blue",
+                    "url": "/api/v2/version/2/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 15
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "yellow",
+                    "url": "/api/v2/version/3/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 25,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 25
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "firered",
+                    "url": "/api/v2/version/10/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 25,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 25
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "leafgreen",
+                    "url": "/api/v2/version/11/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "johto-safari-zone-zone-rocky-beach",
+            "url": "/api/v2/location-area/821/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 15
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 16,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 16
+                    }
+                ],
+                "max_chance": 20,
+                "version": {
+                    "name": "heartgold",
+                    "url": "/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 15,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 15
+                    },
+                    {
+                        "chance": 10,
+                        "condition_values": [],
+                        "max_level": 16,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 16
+                    }
+                ],
+                "max_chance": 20,
+                "version": {
+                    "name": "soulsilver",
+                    "url": "/api/v2/version/16/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "ancient-poni-path-area",
+            "url": "/api/v2/location-area/1071/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 44,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 41
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "ultra-sun",
+                    "url": "/api/v2/version/29/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 44,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 41
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "ultra-moon",
+                    "url": "/api/v2/version/30/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "poni-breaker-coast-area",
+            "url": "/api/v2/location-area/1113/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 44,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 41
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "ultra-sun",
+                    "url": "/api/v2/version/29/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 44,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 41
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "ultra-moon",
+                    "url": "/api/v2/version/30/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "poni-wilds-area",
+            "url": "/api/v2/location-area/1122/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 43,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "sun",
+                    "url": "/api/v2/version/27/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 43,
+                        "method": {
+                            "name": "surf",
+                            "url": "/api/v2/encounter-method/5/"
+                        },
+                        "min_level": 40
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "moon",
+                    "url": "/api/v2/version/28/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "poke-pelago-poni-island-reached",
+            "url": "/api/v2/location-area/1158/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 8,
+                        "condition_values": [],
+                        "max_level": 43,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 37
+                    }
+                ],
+                "max_chance": 8,
+                "version": {
+                    "name": "ultra-sun",
+                    "url": "/api/v2/version/29/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 8,
+                        "condition_values": [],
+                        "max_level": 43,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 37
+                    }
+                ],
+                "max_chance": 8,
+                "version": {
+                    "name": "ultra-moon",
+                    "url": "/api/v2/version/30/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "poke-pelago-elite-four-defeated",
+            "url": "/api/v2/location-area/1160/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 7,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 49
+                    }
+                ],
+                "max_chance": 7,
+                "version": {
+                    "name": "sun",
+                    "url": "/api/v2/version/27/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 7,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 49
+                    }
+                ],
+                "max_chance": 7,
+                "version": {
+                    "name": "moon",
+                    "url": "/api/v2/version/28/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 49
+                    }
+                ],
+                "max_chance": 4,
+                "version": {
+                    "name": "ultra-sun",
+                    "url": "/api/v2/version/29/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 4,
+                        "condition_values": [],
+                        "max_level": 55,
+                        "method": {
+                            "name": "gift",
+                            "url": "/api/v2/encounter-method/18/"
+                        },
+                        "min_level": 49
+                    }
+                ],
+                "max_chance": 4,
+                "version": {
+                    "name": "ultra-moon",
+                    "url": "/api/v2/version/30/"
+                }
+            }
+        ]
+    }
+]

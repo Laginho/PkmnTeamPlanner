@@ -1,0 +1,140 @@
+[
+    {
+        "location_area": {
+            "name": "pinwheel-forest-outside",
+            "url": "/api/v2/location-area/581/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 57,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 57
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 57,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 57
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white-2",
+                    "url": "/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "unova-route-3-area",
+            "url": "/api/v2/location-area/625/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 58,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 58
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "black-2",
+                    "url": "/api/v2/version/21/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 5,
+                        "condition_values": [],
+                        "max_level": 58,
+                        "method": {
+                            "name": "grass-spots",
+                            "url": "/api/v2/encounter-method/9/"
+                        },
+                        "min_level": 58
+                    }
+                ],
+                "max_chance": 5,
+                "version": {
+                    "name": "white-2",
+                    "url": "/api/v2/version/22/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "ultra-space-wilds-cliff",
+            "url": "/api/v2/location-area/1148/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 15,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 60
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "ultra-sun",
+                    "url": "/api/v2/version/29/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 15,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 60
+                    }
+                ],
+                "max_chance": 15,
+                "version": {
+                    "name": "ultra-moon",
+                    "url": "/api/v2/version/30/"
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,159 @@
+[
+    {
+        "location_area": {
+            "name": "sky-pillar-apex",
+            "url": "/api/v2/location-area/804/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 70
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "ruby",
+                    "url": "/api/v2/version/7/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 70
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "sapphire",
+                    "url": "/api/v2/version/8/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 70,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 70
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "emerald",
+                    "url": "/api/v2/version/9/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "embedded-tower-rayquaza-room",
+            "url": "/api/v2/location-area/828/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "heartgold",
+                    "url": "/api/v2/version/15/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 50,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 50
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "soulsilver",
+                    "url": "/api/v2/version/16/"
+                }
+            }
+        ]
+    },
+    {
+        "location_area": {
+            "name": "ultra-space-wilds-cliff",
+            "url": "/api/v2/location-area/1148/"
+        },
+        "version_details": [
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 60
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "ultra-sun",
+                    "url": "/api/v2/version/29/"
+                }
+            },
+            {
+                "encounter_details": [
+                    {
+                        "chance": 100,
+                        "condition_values": [],
+                        "max_level": 60,
+                        "method": {
+                            "name": "only-one",
+                            "url": "/api/v2/encounter-method/20/"
+                        },
+                        "min_level": 60
+                    }
+                ],
+                "max_chance": 100,
+                "version": {
+                    "name": "ultra-moon",
+                    "url": "/api/v2/version/30/"
+                }
+            }
+        ]
+    }
+]
