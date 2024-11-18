@@ -11,9 +11,10 @@
 
 # System includes
 import json
+import os
 
-
-PATH = "../api/v2"
+os.chdir(f"{os.path.dirname(os.path.abspath(__file__))}/../")
+PATH = "api/v2"
 
 
 TYPES = [

@@ -1,16 +1,26 @@
+"""
+=======================================================================
+
+ File: main.py
+
+ Description: Main project file, which puts the project together.
+
+ TODO: ver 1.0
+       [ ] Add: File documentation and docstrings.
+
+=======================================================================
+"""
+
+# system includes
 from handler import Handler
 
-if __name__ == "2":
-    handler = Handler()
+# project includes
+from interface import Interface
 
-    pkmn = "arcanine"
-    print(f"pkmn: {pkmn}. type: {handler.get_type(pkmn)}")
-    t1, t2 = handler.get_type(pkmn)
+MODE = "sample"
 
-    a = handler.get_type_interactions(t1, t2)
-    print(a)
 
-if __name__ == "__main__":
+def raw_run():
     handler = Handler()
 
     pkmn_list = [
@@ -25,8 +35,18 @@ if __name__ == "__main__":
     ints = {}
 
     for pkmn in pkmn_list:
-        t1, t2 = handler.get_type(pkmn)
-        ints = handler.get_type_interactions(t1, t2)
+        ints = handler.get_pkmn_interactions(pkmn)
         print(f"\n\n{pkmn}: {ints}")
 
-    print(ints)
+
+def proper_run(is_sample=False):
+    interface = Interface(is_sample)
+
+
+if __name__ == "__main__":
+    if MODE == "raw":
+        raw_run()
+    if MODE == "proper":
+        proper_run()
+    if MODE == "sample":
+        proper_run(is_sample=True)

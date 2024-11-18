@@ -17,6 +17,16 @@ class Data:
         except KeyError:
             print(f"Folder {folder} not found")
 
+    def get_num_from_name(self, folder_name: str, name: str) -> str:
+        results = self._data[folder_name].get("results")
+
+        for item in results:
+            if item.get("name") == name:
+                url = item.get("url")  # "/api/v2/pokemon/587/"
+                return url.split("/")[-2]  # 587
+
+        return None
+
     def get_dict_from_num(self, folder_name: str, num: str) -> dict:
         if not num:
             return
