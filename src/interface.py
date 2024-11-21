@@ -11,14 +11,14 @@ TEAM_FONT = ("Arial", 16, "italic")
 
 
 class Interface:
-    def __init__(self, is_sample=False):
+    def __init__(self, debug=False):
         self.handler = Handler()
         self.root = tk.Tk()
         self.root.title("Pokémon Team Planner")
         self.root.geometry("1280x720")
 
         self.pkmn_list = []
-        self.is_sample = is_sample
+        self.debug = debug
 
         self.create_widgets()
         self.__post_init__()
@@ -116,14 +116,14 @@ class Interface:
         self.input_field.delete(0, tk.END)
         self.refresh_text_area()
 
-        if self.is_sample:
+        if self.debug:  # My team on Black/White
             self.pkmn_list = [
                 "arcanine",
-                "zekrom",
-                "excadrill",
-                "kyurem",
                 "scrafty",
+                "excadrill",
                 "archeops",
+                "leavanny",
+                "stoutland",
             ]
             self.update_table()
 

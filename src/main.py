@@ -17,7 +17,7 @@ from handler import Handler
 # project includes
 from interface import Interface
 
-MODE = "sample"
+MODE = "proper"
 
 
 def raw_run():
@@ -39,8 +39,8 @@ def raw_run():
         print(f"\n\n{pkmn}: {ints}")
 
 
-def proper_run(is_sample=False):
-    interface = Interface(is_sample)
+def proper_run(debug=False):
+    interface = Interface(debug)
 
 
 if __name__ == "__main__":
@@ -48,5 +48,7 @@ if __name__ == "__main__":
         raw_run()
     if MODE == "proper":
         proper_run()
-    if MODE == "sample":
-        proper_run(is_sample=True)
+    if MODE == "debug":
+        proper_run(debug=True)
+    else:
+        print("Invalid MODE.")
