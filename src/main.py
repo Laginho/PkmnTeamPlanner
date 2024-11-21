@@ -5,7 +5,9 @@
 
  Description: Main project file, which puts the project together.
 
- TODO: ver 1.0
+ TODO: ver 2.0
+       [ ] Fix: Refactor to use new json files.
+       [ ] Add: Error handling.
        [ ] Add: File documentation and docstrings.
 
 =======================================================================

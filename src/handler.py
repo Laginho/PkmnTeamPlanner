@@ -116,7 +116,7 @@ class Handler:
                     missing_soft.append([type_, [attack, defense]])
 
         if missing_hard or missing_soft:
-            str1 = "Not complete. "
+            str1 = "Not complete." if missing_soft else "Almost complete."
             str2 = "\n\nHard problems:\n"
             str3 = "\n\nSoft problems:\n"
 
