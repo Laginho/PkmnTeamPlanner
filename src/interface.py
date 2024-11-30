@@ -1,3 +1,15 @@
+"""
+=======================================================================
+
+ File: interface.py
+
+ Description: Tkinter GUI for the Planner.
+              - Currently a black box made by ChatGPT.
+              - Don't blame me, i hate front-end development.
+
+=======================================================================
+"""
+
 # system includes
 import tkinter as tk
 from tkinter import ttk
@@ -29,7 +41,7 @@ class Interface:
         )
         self.title_label.pack(pady=10)
 
-        self.text_area = tk.Text(self.root, height=15, width=70, font=FONT)
+        self.text_area = tk.Text(self.root, height=8, width=70, font=FONT)
         self.text_area.pack(pady=10)
         self.text_area.tag_configure("title", font=TITLE_FONT)
         self.text_area.tag_configure("team", justify="right", font=TEAM_FONT)
@@ -68,7 +80,7 @@ class Interface:
                 self.table_frame,
                 columns=("Type", "Attacking", "Defending"),
                 show="headings",
-                height=6,
+                height=4,
             )
             table.grid(row=1, column=i, padx=5)
             self.tables.append(table)
@@ -81,7 +93,6 @@ class Interface:
             table.heading("Attacking", text="Attacking")
             table.heading("Defending", text="Defending")
 
-        # Add an empty new table below the existing ones
         self.final_table_frame = tk.Frame(self.root)
         self.final_table_frame.pack(pady=15)
 
@@ -92,7 +103,7 @@ class Interface:
             self.final_table_frame,
             columns=("Type", "Attacking", "Defending"),
             show="headings",
-            height=10,
+            height=4,
         )
         self.final_table.pack(expand=True)
 

@@ -14,7 +14,7 @@ import json
 import os
 
 os.chdir(f"{os.path.dirname(os.path.abspath(__file__))}/../")
-PATH = "api/v2"
+PATH = "api"
 
 
 TYPES = [
@@ -39,20 +39,8 @@ TYPES = [
 ]
 
 
-def load_folder(folder_name: str) -> dict:
-    with open(f"{PATH}/{folder_name}/index.json") as f:
-        return json.load(f)
+def load_dict(folder_name: str) -> dict:
+    """Get the corresponding dict from the json file."""
 
-
-def load_dict_from_num(folder_name: str, num: str) -> dict:
-    """Looks up a pokemon or type dict by its number
-
-    Args:
-        folder_name (str): "pokemon" or "type"
-        num (str): the entry's number
-
-    Returns:
-        dict: the entry from the json file
-    """
-    with open(f"{PATH}/{folder_name}/{num}/index.json") as f:
+    with open(f"{PATH}/{folder_name}.json") as f:
         return json.load(f)

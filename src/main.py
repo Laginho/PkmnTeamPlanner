@@ -6,7 +6,7 @@
  Description: Main project file, which puts the project together.
 
  TODO: ver 2.0
-       [ ] Fix: Refactor to use new json files.
+       [x] Fix: Refactor to use new json files.
        [ ] Add: Error handling.
        [ ] Add: File documentation and docstrings.
 
@@ -48,9 +48,9 @@ def proper_run(debug=False):
 if __name__ == "__main__":
     if MODE == "raw":
         raw_run()
-    if MODE == "proper":
+    elif MODE == "proper":
         proper_run()
-    if MODE == "debug":
+    elif MODE == "debug":
         proper_run(debug=True)
     else:
         print("Invalid MODE.")

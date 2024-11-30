@@ -12,7 +12,7 @@ class Data:
         assert isinstance(folder, str), f"Expected str, got {type(folder)}"
 
         try:
-            self._data[folder] = loader.load_folder(folder)
+            self._data[folder] = loader.load_dict(folder)
 
         except KeyError:
             print(f"Folder {folder} not found")
