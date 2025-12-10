@@ -74,7 +74,7 @@ class Handler:
 
         return interactions
 
-    def is_complete(self, interactions: dict[str, list[float, float]]) -> str:
+    def get_completion_data(self, interactions: dict[str, list[float, float]]) -> dict:
         missing_hard = []
         missing_soft = []
         for type_ in loader.TYPES:
@@ -89,21 +89,38 @@ class Handler:
                 elif attack < 2.0 or defense > 0.5:
                     missing_soft.append([type_, [attack, defense]])
 
-        if missing_hard or missing_soft:
-            str1 = "Not complete." if missing_hard else "Almost complete."
-            str2 = "\n\nHard problems:\n"
-            str3 = "\n\nSoft problems:\n"
+        status = "Complete!"
+        if missing_hard:
+            status = "Not complete."
+        elif missing_soft:
+            status = "Almost complete."
 
-            if missing_hard:
-                for missing_item in missing_hard:
-                    str2 += f"{missing_item[0]}: {missing_item[1]}\n"
-            if missing_soft:
-                for missing_item in missing_soft:
-                    str3 += f"{missing_item[0]}: {missing_item[1]}\n"
+        return {
+            "status": status,
+            "hard_problems": missing_hard,
+            "soft_problems": missing_soft
+        }
 
-            return str1 + str2 + str3
+    def is_complete(self, interactions: dict[str, list[float, float]]) -> str:
+        """Legacy method for backward compatibility if needed, using the new structure."""
+        data = self.get_completion_data(interactions)
 
-        return "Complete!"
+        if data["status"] == "Complete!":
+            return "Complete!"
+
+        str_output = data["status"]
+        str_output += "\n\nHard problems:\n"
+        str_output += "\n\nSoft problems:\n"
+
+        if data["hard_problems"]:
+            for missing_item in data["hard_problems"]:
+                str_output += f"{missing_item[0]}: {missing_item[1]}\n"
+
+        if data["soft_problems"]:
+            for missing_item in data["soft_problems"]:
+                str_output += f"{missing_item[0]}: {missing_item[1]}\n"
+
+        return str_output
 
 
 def schur(a: list[float], b: list[float]) -> float:
