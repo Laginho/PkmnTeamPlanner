@@ -10,6 +10,7 @@
 
 # system includes
 import tkinter as tk
+from tkinter import ttk
 import ttkbootstrap as tb
 
 # project includes
@@ -34,6 +35,7 @@ class Interface:
         self.root = tb.Window(themename=self.current_theme)
         self.root.title("Pokémon Team Planner")
         self.root.geometry("1400x800")
+        self.style = tb.Style()
 
         # Create style instance once
         self.style = tb.Style()
