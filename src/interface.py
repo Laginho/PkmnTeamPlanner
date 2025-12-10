@@ -11,14 +11,13 @@
 # system includes
 import tkinter as tk
 import ttkbootstrap as tb
-from ttkbootstrap.constants import *
+from ttkbootstrap import constants
 
 # project includes
 from handler import Handler
 
 FONT = ("Arial", 12)
 TITLE_FONT = ("Arial", 20, "bold")
-TEAM_FONT = ("Arial", 14, "italic")
 
 
 class Interface:
@@ -36,6 +35,9 @@ class Interface:
         self.root = tb.Window(themename=self.current_theme)
         self.root.title("Pokémon Team Planner")
         self.root.geometry("1400x800")
+
+        # Create style instance once
+        self.style = tb.Style()
 
         # Grid configuration for main layout
         self.root.columnconfigure(0, weight=1, minsize=300)  # Sidebar
@@ -197,21 +199,20 @@ class Interface:
             self.current_theme = "cosmo"
             self.sidebar.configure(bootstyle="light")
 
-        style = tb.Style()
-        style.theme_use(self.current_theme)
+        self.style.theme_use(self.current_theme)
 
     def submit_input(self, event=None):
         user_input = self.input_field.get().strip()
         self.input_field.delete(0, tk.END)
 
         if self.debug and user_input == "debug": # Trigger debug team
-             self.pkmn_list = [
+            self.pkmn_list = [
                 "arcanine", "scrafty", "excadrill",
                 "archeops", "leavanny", "stoutland"
             ]
-             self.update_table()
-             self.update_status("Loaded debug team.", "success")
-             return
+            self.update_table()
+            self.update_status("Loaded debug team.", "success")
+            return
 
         if not user_input:
             return
@@ -247,7 +248,7 @@ class Interface:
             interactions = self.handler.get_pkmn_interactions(pkmn)
 
             # Update title
-            text = pkmn[0].upper() + pkmn[1:]
+            text = pkmn.capitalize()
             self.table_titles[i].configure(text=text)
 
             table = self.tables[i]
@@ -263,7 +264,12 @@ class Interface:
             data = self.handler.get_completion_data(team_interactions)
 
             # Update Status
-            status_color = "success" if data["status"] == "Complete!" else "warning" if data["status"] == "Almost complete." else "danger"
+            if data["status"] == "Complete!":
+                status_color = "success"
+            elif data["status"] == "Almost complete.":
+                status_color = "warning"
+            else:
+                status_color = "danger"
             self.team_status_label.configure(text=data["status"], bootstyle=status_color)
 
             # Update Hard Problems
@@ -281,9 +287,9 @@ class Interface:
                 self.soft_problems_label.configure(text="None", bootstyle="success")
 
         else:
-             self.team_status_label.configure(text=f"Building ({len(self.pkmn_list)}/6)", bootstyle="info")
-             self.hard_problems_label.configure(text="...", bootstyle="secondary")
-             self.soft_problems_label.configure(text="...", bootstyle="secondary")
+            self.team_status_label.configure(text=f"Building ({len(self.pkmn_list)}/6)", bootstyle="info")
+            self.hard_problems_label.configure(text="...", bootstyle="secondary")
+            self.soft_problems_label.configure(text="...", bootstyle="secondary")
 
         # Populate Final Table
         for row in self.final_table.get_children():

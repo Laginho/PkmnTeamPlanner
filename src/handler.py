@@ -109,14 +109,14 @@ class Handler:
             return "Complete!"
 
         str_output = data["status"]
-        str_output += "\n\nHard problems:\n"
-        str_output += "\n\nSoft problems:\n"
 
         if data["hard_problems"]:
+            str_output += "\n\nHard problems:\n"
             for missing_item in data["hard_problems"]:
                 str_output += f"{missing_item[0]}: {missing_item[1]}\n"
 
         if data["soft_problems"]:
+            str_output += "\n\nSoft problems:\n"
             for missing_item in data["soft_problems"]:
                 str_output += f"{missing_item[0]}: {missing_item[1]}\n"
 
