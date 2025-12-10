@@ -11,7 +11,6 @@
 # system includes
 import tkinter as tk
 import ttkbootstrap as tb
-from ttkbootstrap import constants
 
 # project includes
 from handler import Handler
